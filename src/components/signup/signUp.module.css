@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: inherit;
+    max-height: 80%;
+    width: 33%;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container>form{
+    height: 80%;
+    width: 100%;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.lable{
+    font-size: 1.2rem;
+    color:blue;
+}
+form>input{
+    height: 1rem;
+    background-color: blueviolet;
+}
